@@ -8,11 +8,6 @@ const environment = require('./helpers/environments');
 // app object - module scaffolding
 const app = {};
 
-// configuration
-// app.config = {
-//     port: 3000,
-// };
-
 // Create server
 app.createServer = () => {
     const server = http.createServer(app.handleReqRes);
